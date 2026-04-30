@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<empresa_sostenible nombre="NexoWeb Consulting S.L." sector="Consultoría Web">
+
+    <!-- Grupos de interés de la consultora web -->
+    <stakeholders>
+
+        <stakeholder id="STK-01" tipo="externo" importancia="alta">
+            <nombre>Clientes empresariales</nombre>
+            <descripcion>Empresas que contratan proyectos web. Exigen seguridad, accesibilidad y cumplimiento del RGPD.</descripcion>
+        </stakeholder>
+
+        <stakeholder id="STK-02" tipo="interno" importancia="alta">
+            <nombre>Equipo de desarrollo</nombre>
+            <descripcion>Desarrolladores y diseñadores. Valoran condiciones laborales justas y formación en Green Coding.</descripcion>
+        </stakeholder>
+
+        <stakeholder id="STK-03" tipo="externo" importancia="media">
+            <nombre>Proveedores cloud</nombre>
+            <descripcion>Empresas de hosting y servicios en la nube. Su huella de carbono forma parte del Alcance 3 de las emisiones.</descripcion>
+        </stakeholder>
+
+    </stakeholders>
+
+    <!-- Temas materiales ASG identificados para la consultora -->
+    <temas_materiales>
+
+        <tema_material id="TM-01" impacto_asg="Ambiental" nivel_impacto="critico">
+            <nombre>Eficiencia energética del software</nombre>
+            <descripcion>El sector TIC representa entre el 2% y el 4% de las emisiones globales de CO₂. Adoptar prácticas de Green Coding reduce la huella de carbono de los productos digitales.</descripcion>
+        </tema_material>
+
+        <tema_material id="TM-02" impacto_asg="Social" nivel_impacto="critico">
+            <nombre>Accesibilidad web universal</nombre>
+            <descripcion>Más de 1.300 millones de personas tienen algún tipo de discapacidad. El incumplimiento de las WCAG 2.2 supone exclusión social y riesgo legal en la UE.</descripcion>
+        </tema_material>
+
+        <tema_material id="TM-03" impacto_asg="Gobernanza" nivel_impacto="critico">
+            <nombre>Privacidad de datos y cumplimiento RGPD</nombre>
+            <descripcion>El RGPD obliga a aplicar Privacy by Design en todos los sistemas que traten datos personales. Las sanciones pueden alcanzar el 4% de la facturación anual global.</descripcion>
+        </tema_material>
+
+    </temas_materiales>
+
+</empresa_sostenible>
